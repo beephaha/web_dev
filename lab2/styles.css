@@ -1,0 +1,84 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: calc(100vh - 40px); /* Высота footer */
+    padding: 0 20px;
+}
+p{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;;
+    font-size: 24px;
+    line-height: 28px;
+    width: auto;
+}
+.center-text {
+    max-width: 700px;
+    flex: 1;
+}
+img{
+    height: 60%;
+    width: 60%;
+}
+.login-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    width: 400px;
+}
+#reg_button{
+    background-color:#42b72A ;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #1877F2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login_box a {
+    color: #1877F2;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer {
+    width: 100%;
+    border-top: 1px solid #dddfe2;
+    background-color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.language-bar a, .other-links a {
+    margin: 0 10px;
+    color: #1877F2;
+    text-decoration: none;
+    font-size: 12px;
+}
