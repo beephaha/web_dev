@@ -54,24 +54,57 @@ header img {
 .navigation-right a{
     margin-right: 40px;
 }
+
 .main_image{
     width: 100%;
-    height:458.21px;
+    height:480px;
 }
 .main {
     display: flex;
     background:url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Multi-Canvas-Bing-AI-No-Text:VP2-859x540') no-repeat;
     background-size: contain;
-    background-position: center center;
+    background-position: right center;
+    background-color: #004a7f;
     width: 100%;
-    height: 483px;
+    height: 480px;
     background-repeat: no-repeat;
     align-content: center;
     flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 10px;
 
-}   
+}  
+
+.info {
+    margin-left: 10%;
+    text-align: left;
+    color: #f8f8f8;
+}
+.bing_card h2{
+    margin-bottom: 10px;
+}
+.main h2{
+    margin-top: 100px;
+    margin-left: 10%;
+    text-align: left;
+    color: #f8f8f8;
+}
+
+.button{
+    margin-left: 10%;
+}
+
+.button button {
+    background-color:#0067b8;
+    color: #f8f8f8;
+    border-width:0px;
+    margin: 8px 0px;
+    padding:10px 12px;
+    font-weight: 20px;
+    cursor: pointer;
+}
+
 .card img{
     justify-content: baseline;
     justify-content: space-between;
@@ -108,4 +141,9 @@ header img {
     width: 100%;
     height:359.19px;
     margin-bottom: 30px;
+}
+.Bing{
+    margin-left: 50px;
+    width: 30%;
+    height: auto;
 }
